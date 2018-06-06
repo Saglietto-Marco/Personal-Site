@@ -15,7 +15,7 @@ body {
 }
 
 #name {
-    font-family: 'Lobster', cursive;
+    font-family: 'Mr Dafoe', cursive;
     font-size: 48px;
     color: snow;
 }
@@ -29,8 +29,8 @@ body {
     
 }
 
-.lobster {
-    font-family: 'Lobster', cursive;
+.mrdafoe {
+    font-family: 'Mr Dafoe', cursive;
 }
 
 .fatface {
@@ -72,6 +72,9 @@ body {
     margin-bottom: 5%;
 }
 
+.extend-card {
+    padding-bottom: 30px;
+}
 
 @media screen and (max-width: 415px) {
     .below-nav {
