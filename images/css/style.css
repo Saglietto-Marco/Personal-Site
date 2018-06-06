@@ -1,0 +1,106 @@
+nav {
+    background-color: #575e68;
+    position: fixed;
+    border-bottom-color: teal;
+    border-style: solid;  
+    border-bottom-width: 2px; 
+}
+
+body {
+    background-image: url("images/Light-Wood-Background-Wallpaper.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: teal;
+
+}
+
+#name {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: snow;
+}
+
+#bio-pic {
+    float: left;
+    height: 300px;
+    width: auto;
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.fatface {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.cairo {
+    font-family: 'Cairo', sans-serif;
+}
+
+.below-nav {
+    margin-top: 15%;
+}
+
+.jumbotron p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+}
+
+
+.links:link, .links:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links:active {
+    color: teal;
+    background-color: snow;
+}
+
+.links:hover {
+    background-color:teal;
+}
+
+#project-body-header{
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 415px) {
+    .below-nav {
+        margin-top: 40%;
+    } 
+    #name {
+        font-size: 36px;
+    }
+    .links:link, .links:visited {
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 777px) {
+    .below-nav {
+        margin-top: 30%;
+    } 
+    #name {
+        font-size: 36px;
+    }
+    .links:link, .links:visited {
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
